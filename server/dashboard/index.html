@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="noindex,nofollow" />
+	
+	<link href="/dashboard/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link href="/dashboard/css/style.css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="/dashboard/js/jq.js"></script>
+	<script type="text/javascript" src="/dashboard/js/socket.io.js"></script>
+	<script type="text/javascript" src="/dashboard/js/main.js"></script>
+	<script type="text/javascript" src="/dashboard/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+		<!--div id="header">
+		Performance tests
+		</div-->
+	<div class="container">
+		<h3>Performance Test</h3>
+		<div class="well span7">
+			<form class="form-horizontal" id="frmTest">
+				<div class="control-group">
+					<label class="control-label" for="">Test Type</label>
+					<div class="controls controls-row">
+						<input type="text" name="test_type" class="span3" value="ab" readonly = "true" />
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<label class="control-label" for="">Test Name</label>
+					<div class="controls">
+						<input type="text" name="test_name" class="span3" value="" />
+					</div>
+				</div>
+			
+				<div class="control-group">
+					<label class="control-label" for="">Requests</label>
+					<div class="controls">
+						<input type="text" name="requests" class="span1" value="" />
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<label class="control-label" for="">Concurrency - Limit</label>
+					<div class="controls controls-row">
+						<input type="text" name="concurrency" class="span1" value="" />
+						<input type="text" name="limit" class="span1" value="" />
+					</div>
+				</div>
+				<div class="table-head">
+					<table class="table">
+						<tr class="tr-hide">
+							<td><button type="button" class="close">&times;</button></td>
+							<td><select class="span1" name="ctype" ><option value="GET">GET</option><option value="POST">POST</option></select></td>
+							<td><input type="text" name="urls" class="span3" value="" placeholder="Absolute URL" /></td>
+							<td><input type="text" name="titles" class="span2" value="" placeholder="Title" /></td>
+						</tr>
+						<tr>
+							<th><i class="icon-plus" id="addMore"></i></th>
+							<th>URLs</th>
+							<th>Titles</th>
+						</tr>
+					</table>
+				</div>
+				<div class="table-body">
+					<table class="table" id="pages">
+						<tbody>
+							<tr>
+								<td><button type="button" class="close">&times;</button></td>
+								<td><select class="span1" name="ctype" ><option value="GET">GET</option><option value="POST">POST</option></select></td>
+								<td><input type="text" name="urls" class="span3" value="" placeholder="Absolute URL" /></td>
+								<td><input type="text" name="titles" class="span2" value="" placeholder="Title" /></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<hr />
+				<div class="">
+					<button type="submit" class="btn btn-primary pull-right">Start</button>
+					<button type="button" id="stop" class="btn pull-right mr20">Stop</button>
+					<!--a href="#" target="_blank" id="viewReport" class="btn btn-link hidden">View Report</a-->
+				</div>
+			</div>
+		
+		</form>
+		<div class="well pull-right" id="progress">
+			<h5>Status:</h5>
+			<hr />
+			<div id="status"></div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

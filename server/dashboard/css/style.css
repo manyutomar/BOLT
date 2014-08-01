@@ -1,0 +1,82 @@
+div#divQ {
+	width: 600px;
+}
+
+#progress {
+	width: 280px;
+	min-height: 200px;
+	max-height: 418px;
+	overflow: auto;
+}
+
+#report {
+	
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.table td {
+	vertical-align: middle;
+}
+
+.table .icon-plus {
+	cursor: pointer;
+}
+
+.table th, .table td {
+	text-align: center;
+}
+
+.table .close {
+	float: none;
+}
+
+#progress dl {
+	margin: 2px 0;
+}
+
+#progress dl dt {
+	width: 75px;
+	text-align: left;
+}
+
+#progress dl dd {
+	width: auto;
+	margin-left: 75px;
+}
+
+
+div.table-body {
+	max-height: 150px;
+	overflow: auto;
+}
+
+div.table-head {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+div.table-head .table {
+	margin: -48px 0 0 0;
+}
+
+.table-head .tr-hide {
+	visibility: hidden;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+.mr20 {
+	margin-right: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+#status {
+	white-space: pre;
+	font-size: 85%;
+}

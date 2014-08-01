@@ -1,0 +1,6 @@
+{
+"appUserId":"appuseridsample1211",
+"pushDeviceToken":"imapushtoken",
+"appId":"imaappid",
+"platform":"IOS"
+} 

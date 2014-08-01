@@ -1,0 +1,6 @@
+{
+"appUserId":"appuseridsample2111",
+"pushDeviceToken":"imapushtoken",
+"appId":"imaappid",
+"platform":"ANDROID"
+} 

@@ -1,0 +1,1 @@
+{'appUserId':'appuseridsample12lo','pushDeviceToken':'imapushtoken','appId':'imaappid','platform':'ANDROID','location':{'lat':1.223,'lon':3.3323}}
